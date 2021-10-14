@@ -1,0 +1,17 @@
+.playlist {
+  display:flex;
+  width: 100%;
+  font-size:50px;
+  font-weight: 700;
+  margin-top:45px;
+}
+
+.playlist__column {
+  width:36%;
+  font-size: 45px;
+}
+
+.playlist__column:last-child {
+  justify-content: center;
+}
+
